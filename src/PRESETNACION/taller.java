@@ -1,5 +1,5 @@
 package PRESETNACION;
-
+//esto agrego
 public class taller {
     String nombre;
     int edad;
@@ -8,6 +8,6 @@ public taller (String nombre, int edad){
     this.edad = edad;
 }
 public void Presentacion(){
-    System.out.println("Soy el estudiante "+nombre+" y tengo "+edad+" años");
+    System.out.println("Soy  "+nombre+" estudiante de la esfot y tengo "+edad);
 }
 }
