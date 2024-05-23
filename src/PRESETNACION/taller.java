@@ -11,6 +11,22 @@ public void Presentacion(){
     System.out.println("Soy  "+nombre+" estudiante de la esfot y tengo "+edad);
 }
 }
+//TUVE HERROR Y NO PUDE TERMINAR SE MEZCLO
+//soy angel villamil el del ultimo
+
+
+public class Familia{
+    String apellido;
+    String origen;
+
+    public Familia (String apellido, String origen) {
+        this.apellido = apellido;
+        this.origen = origen;
+    }
+    public void mostrarfamilia(){
+        System.out.println("El apellido "+apellido+" tiene origen del pais de" +origen);
+    }
+}
 
 class Padre extends Familia{
     String nombrePapa;
